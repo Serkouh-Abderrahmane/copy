@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="vi" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://luonvuituoi.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://luonvuituoi.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://luonvuituoi.co/collections/ao-thun-ringer-tr%C6%A1i-b%E1%BB%9Di.atom"/>
+  <title>Luon Vuituoi</title>
+  <updated>2026-05-13T11:02:23+07:00</updated>
+  <author>
+    <name>Luon Vuituoi</name>
+  </author>
+  <entry>
+    <id>https://luonvuituoi.co/products/10131741245760</id>
+    <published>2026-05-13T11:02:23+07:00</published>
+    <updated>2026-05-13T11:02:23+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/ao-ringer-relaxed-fit-tr%E1%BA%BB-ng%C6%B0%E1%BB%9Di-nonstop"/>
+    <title>Áo Thun Ringer Relaxed Fit Trẻ Người Nonstop</title>
+    <s:type>Áo Thun Ringer Relaxed Fit</s:type>
+    <s:vendor>LUON VUITUOI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/denc_tr_ngsau_fe1946dc-1fb2-49cb-8ce5-cda5c6c5d6f6.jpg?v=1778644781"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>LUON VUITUOI<br>
+        <strong>Loại: </strong>Áo Thun Ringer Relaxed Fit<br>
+        <strong>Giá: </strong>
+            169000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">Thông tin sản phẩm: </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Dáng áo Relaxed Fit rộng rãi vừa đủ, tạo cảm giác thoải mái thoải mái khi vận động, phù hợp cho cả nam và nữ. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Phần cổ áo được sử dụng có thể bằng bo cổ chắc chắn, giúp giữ ấm lâu dài và hạn chế tình trạng giãn nở sau nhiều lần giặt. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Sử dụng công nghệ kỹ thuật số cho hình ảnh sắc nét, màu sắc bền bỉ. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">Các đường dẫn có thể được xử lý gọn gàng, chỉ đến từng chi tiết. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Bảng màu hiện đại, dễ dàng kết hợp với nhiều phong cách trang phục khác nhau. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Sản xuất tại Việt Nam.</span></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Trơi Bời</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Đen cổ trắng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Navy cổ trắng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ đen / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ navy / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131741245760</id>
+      <title>Trắng cổ hồng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1150MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10131738296640</id>
+    <published>2026-05-13T10:34:29+07:00</published>
+    <updated>2026-05-13T10:34:29+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/ao-ringer-relaxed-fit-g%E1%BA%A7n-nh%E1%BA%A1c-thi-dance"/>
+    <title>Áo Thun Ringer Relaxed Fit Gần Nhạc Thì Dance</title>
+    <s:type>Áo Thun Ringer Relaxed Fit</s:type>
+    <s:vendor>LUON VUITUOI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/AORINGERSAUcopy_a2680a72-4f5c-4ccb-a601-4d1922ed2925.jpg?v=1778642870"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>LUON VUITUOI<br>
+        <strong>Loại: </strong>Áo Thun Ringer Relaxed Fit<br>
+        <strong>Giá: </strong>
+            169000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">Thông tin sản phẩm: </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Dáng áo Relaxed Fit rộng rãi vừa đủ, tạo cảm giác thoải mái thoải mái khi vận động, phù hợp cho cả nam và nữ. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Phần cổ áo được sử dụng có thể bằng bo cổ chắc chắn, giúp giữ ấm lâu dài và hạn chế tình trạng giãn nở sau nhiều lần giặt. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Sử dụng công nghệ kỹ thuật số cho hình ảnh sắc nét, màu sắc bền bỉ. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">Các đường dẫn có thể được xử lý gọn gàng, chỉ đến từng chi tiết. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Bảng màu hiện đại, dễ dàng kết hợp với nhiều phong cách trang phục khác nhau. </span></span><br><span dir="auto" style="vertical-align: inherit;"><span dir="auto" style="vertical-align: inherit;">- Sản xuất tại Việt Nam.</span></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Trơi Bời</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ đen / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ navy / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Trắng cổ hồng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Đen cổ trắng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / XS</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / S</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / M</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / L</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10131738296640</id>
+      <title>Navy cổ trắng / 2XL</title>
+      <s:price currency="VND">169000</s:price>
+      <s:sku>MH1674MH</s:sku>
+      <s:grams>25000</s:grams>
+    </s:variant>
+  </entry>
+</feed>

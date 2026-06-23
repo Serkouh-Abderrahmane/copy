@@ -1,0 +1,5051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="vi" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://luonvuituoi.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://luonvuituoi.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://luonvuituoi.co/collections/d%E1%BB%9Di-game-th%E1%BB%A7-sweater.atom"/>
+  <title>Luon Vuituoi</title>
+  <updated>2026-01-20T10:43:58+07:00</updated>
+  <author>
+    <name>Luon Vuituoi</name>
+  </author>
+  <entry>
+    <id>https://luonvuituoi.co/products/10022319325504</id>
+    <published>2026-01-20T10:43:58+07:00</published>
+    <updated>2026-01-20T10:43:58+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/faker-is-calling-sweater"/>
+    <title>Faker Is Calling Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/dentr_c_7d388f9f-a750-4908-8b7b-b42bdf69f3bf.png?v=1768880338"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022319325504</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2486MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10022318997824</id>
+    <published>2026-01-20T10:43:58+07:00</published>
+    <updated>2026-01-20T10:43:58+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/di%E1%BB%87t-kh%E1%BB%95ng-l%E1%BB%93-anh-sang-sweater"/>
+    <title>Diệt Khổng Lồ Ánh Sáng Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/dentr_c_2d75aaea-8617-4f90-aca0-43847233d37c.png?v=1768880205"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10022318997824</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2485MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10016075317568</id>
+    <published>2026-01-09T19:40:05+07:00</published>
+    <updated>2026-01-09T19:40:05+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/only-aram-sweater"/>
+    <title>Only Aram Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/dentr_c_f11d48b2-5be0-48aa-b657-bf3fdfc396a5.png?v=1767962367"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10016075317568</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2357MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10015624823104</id>
+    <published>2026-01-08T21:43:21+07:00</published>
+    <updated>2026-01-08T21:43:21+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/ez-game-sweater"/>
+    <title>Ez Game Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngtr_c_437dc920-807b-4565-a749-c9638143bba0.png?v=1767882922"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624823104</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2364MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10015624397120</id>
+    <published>2026-01-08T21:43:21+07:00</published>
+    <updated>2026-01-08T21:43:21+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/best-yasuo-sweater"/>
+    <title>Best Yasuo Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngsau_d4698d2c-b0de-4815-a208-ce41978c37d0.png?v=1767882793"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10015624397120</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2363MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005742256448</id>
+    <published>2025-12-27T11:42:56+07:00</published>
+    <updated>2025-12-27T11:42:56+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/slay-demacia-sweater"/>
+    <title>Slay Demacia Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/dentr_c_cad78410-afb8-4d51-99b6-4290b26b7b57.png?v=1766810204"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005742256448</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2354MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005741240640</id>
+    <published>2025-12-27T11:42:55+07:00</published>
+    <updated>2025-12-27T11:42:55+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/slay-boss-sweater"/>
+    <title>Slay Boss Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/dentr_c_57aa5fe7-6a37-4f5c-8f35-33138a8ef50e.png?v=1766810026"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005741240640</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2353MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005739536704</id>
+    <published>2025-12-27T11:42:54+07:00</published>
+    <updated>2025-12-27T11:42:54+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/top-tier-sweater"/>
+    <title>Top Tier Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_1f0300ec-dca3-47ea-bbe0-73ba4fb7df28.png?v=1766823811"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005739536704</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2352MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005738651968</id>
+    <published>2025-12-27T11:42:54+07:00</published>
+    <updated>2025-12-27T11:42:54+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/only-teamfight-tactics-sweater"/>
+    <title>Only Teamfight Tactics Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngtr_c_4d073058-cd2b-46bf-b3b9-02feada0c1f5.png?v=1766809577"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005738651968</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2351MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005737242944</id>
+    <published>2025-12-27T11:42:53+07:00</published>
+    <updated>2025-12-27T11:42:53+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/only-league-of-legends-sweater"/>
+    <title>Only League Of Legends Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngtr_c_b755d0ef-f6f3-43de-807b-275354c3cd48.png?v=1766809351"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005737242944</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2350MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005735964992</id>
+    <published>2025-12-27T11:42:53+07:00</published>
+    <updated>2025-12-27T11:42:53+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/5-ti%E1%BB%81n-3-sao-sweater"/>
+    <title>5 Tiền 3 Sao Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngsau_b62ec6a7-f2a4-46e7-81dd-ed348932ced3.png?v=1766809182"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005735964992</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2348MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005718794560</id>
+    <published>2025-12-27T11:42:45+07:00</published>
+    <updated>2025-12-27T11:42:45+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/jungler-i-like-bushes-sweater"/>
+    <title>Jungler I Like Bushes Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_8564831a-98ff-46c3-9f7b-30a18b173932.png?v=1766806304"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005718794560</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2336MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005704999232</id>
+    <published>2025-12-27T11:42:40+07:00</published>
+    <updated>2025-12-27T11:42:40+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/top-1-winner-sweater"/>
+    <title>Top 1 Winner Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_1552780c-4db7-4159-8b25-d3f7fce498dc.png?v=1766803772"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005704999232</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2322MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/10005703688512</id>
+    <published>2025-12-27T11:42:39+07:00</published>
+    <updated>2025-12-27T11:42:39+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/pha-d%E1%BA%A3o-sweater"/>
+    <title>Phá Đảo Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_d968101d-ea90-4134-9f28-272c27fbd885.png?v=1766803634"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/10005703688512</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2321MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9993729769792</id>
+    <published>2025-12-12T15:54:58+07:00</published>
+    <updated>2025-12-12T15:54:58+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/aram-is-my-ranked-sweater"/>
+    <title>Aram Is My Ranked Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_da15b48c-f5a2-4c55-bd6a-b81dcc481ee0.png?v=1765529304"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993729769792</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2317MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9993742680384</id>
+    <published>2025-12-12T15:53:53+07:00</published>
+    <updated>2025-12-12T15:53:53+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/winner-winner-chicken-dinner-sweater"/>
+    <title>Winner Winner Chicken Dinner Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_ba7c663f-ae48-46f3-bbf0-bc0988b41f62.png?v=1765529640"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993742680384</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2319MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9993735176512</id>
+    <published>2025-12-12T15:51:41+07:00</published>
+    <updated>2025-12-12T15:51:41+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/toa-sao-hi%E1%BB%83u-d%C6%B0%E1%BB%A3c-sweater"/>
+    <title>Toà Sao Hiểu Được Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_b5f224ad-52e6-4f40-9a65-d52aec1a5980.png?v=1765529459"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993735176512</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2318MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9993724395840</id>
+    <published>2025-12-12T15:46:41+07:00</published>
+    <updated>2025-12-12T15:46:41+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/all-random-all-mid-sweater"/>
+    <title>All Random All Mid Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_0baf76c7-d262-448b-9bb5-f41addc92713.png?v=1765529171"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9993724395840</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2316MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9988959404352</id>
+    <published>2025-12-03T15:46:18+07:00</published>
+    <updated>2025-12-03T15:46:18+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/ngh%E1%BA%B9o-th%E1%BB%A7-sweater"/>
+    <title>Nghẹo Thủ Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_b20f721d-7073-45c3-bb30-517fd241c359.png?v=1764751542"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9988959404352</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2291MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9986692383040</id>
+    <published>2025-11-28T16:58:49+07:00</published>
+    <updated>2025-11-28T16:58:49+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/m%E1%BA%A5y-con-ga-thi-bi%E1%BA%BFt-cai-gi-sweater"/>
+    <title>Mấy Con Gà Thì Biết Cái Gì Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/densau_7eed348e-c020-4d65-990c-50da1a231dc0.png?v=1764323883"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9986692383040</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2253MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://luonvuituoi.co/products/9978849493312</id>
+    <published>2025-11-15T14:35:17+07:00</published>
+    <updated>2025-11-15T14:35:17+07:00</updated>
+    <link rel="alternate" type="text/html" href="https://luonvuituoi.co/products/chu-be-te-li%E1%BB%87t-sweater"/>
+    <title>Chú Bé Tê Liệt Sweater</title>
+    <s:type>Sweater</s:type>
+    <s:vendor>Luon Vuituoi</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0918/5597/8816/files/tr_ngsau_07fe2625-deb5-43b8-8d6c-a6def28cf76e.png?v=1763192123"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Nhà cung cấp: </strong>Luon Vuituoi<br>
+        <strong>Loại: </strong>Sweater<br>
+        <strong>Giá: </strong>
+            399000
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Chất liệu: Nỉ bông cao cấp<br>- Form relaxed mang lại vẻ năng động và thoải mái.<br>- Chất vải ấm áp, thoáng khí, chống xù hiệu quả.<br>- Bo tay và bo gấu chắc chắn, giữ phom lâu dài.<br>- Sử dụng công nghệ in kỹ thuật số cho hình ảnh sắc nét, bền màu.<br>- Gam màu hiện đại dễ dàng phối với nhiều trang phục và phụ kiện.<br>- Sản xuất tại Việt Nam.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Đời Game Thủ</s:tag>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Trắng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Trắng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Trắng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Trắng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Trắng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Kem / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Kem / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Kem / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Kem / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Kem / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Đen / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Đen / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Đen / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Đen / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Đen / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Hồng / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Hồng / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Hồng / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Hồng / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Hồng / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Xám Tiêu Nhạt / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Xám Tiêu Nhạt / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Xám Tiêu Nhạt / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Xám Tiêu Nhạt / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Xám Tiêu Nhạt / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Navy / XS</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Navy / S</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Navy / M</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Navy / L</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://luonvuituoi.co/products/9978849493312</id>
+      <title>Navy / XL</title>
+      <s:price currency="VND">399000</s:price>
+      <s:sku>MH2232MH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
