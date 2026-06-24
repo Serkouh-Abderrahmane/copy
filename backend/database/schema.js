@@ -52,6 +52,13 @@ const createTables = async () => {
       FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
 
+    `CREATE TABLE IF NOT EXISTS shopify_variants (
+      id bigint(20) NOT NULL PRIMARY KEY,
+      product_id int(11) NOT NULL,
+      KEY product_id (product_id),
+      FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+
     `CREATE TABLE IF NOT EXISTS customers (
       id INT AUTO_INCREMENT PRIMARY KEY,
       first_name VARCHAR(100),
@@ -198,6 +205,27 @@ const createTables = async () => {
       id INT AUTO_INCREMENT PRIMARY KEY,
       setting_key VARCHAR(100) NOT NULL UNIQUE,
       setting_value TEXT
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+
+    `CREATE TABLE IF NOT EXISTS contact_submissions (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      name VARCHAR(255),
+      email VARCHAR(255),
+      phone VARCHAR(20),
+      message TEXT,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+
+    `CREATE TABLE IF NOT EXISTS newsletter_subscribers (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      email VARCHAR(255) NOT NULL UNIQUE,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+
+    `CREATE TABLE IF NOT EXISTS sessions (
+      id VARCHAR(100) PRIMARY KEY,
+      data JSON,
+      expires_at DATETIME
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`
   ];
 

@@ -70,7 +70,7 @@ async function api(method, path, body) {
   if (body && !(body instanceof FormData)) opts.body = JSON.stringify(body);
   if (body instanceof FormData) { delete opts.headers['Content-Type']; opts.body = body; }
   const res = await fetch(API + path, opts);
-  if (res.status === 401) { window.location = '/admin'; return; }
+  if (res.status === 401) { window.location = '/admin/login'; return; }
   return res.json();
 }
 

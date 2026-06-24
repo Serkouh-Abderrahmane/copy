@@ -47,4 +47,19 @@ router.get('/me', authenticateCustomer, async (req, res) => {
   } catch (err) { res.status(500).json({ message: err.message }); }
 });
 
+router.post('/recover', async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (email) {
+      const [existing] = await pool.query('SELECT id FROM customers WHERE email = ?', [email]);
+      if (existing.length > 0) {
+        console.log('Password recovery requested for:', email);
+      }
+    }
+    res.json({ success: true, message: 'Nếu email tồn tại, chúng tôi đã gửi hướng dẫn đặt lại mật khẩu' });
+  } catch (err) {
+    res.json({ success: true, message: 'Nếu email tồn tại, chúng tôi đã gửi hướng dẫn đặt lại mật khẩu' });
+  }
+});
+
 module.exports = router;

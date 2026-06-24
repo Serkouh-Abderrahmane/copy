@@ -5,3 +5,7 @@ uploads/*
 *.log
 .DS_Store
 Thumbs.db
+products/
+cdn/shop/files/
+collections/
+5-*.html

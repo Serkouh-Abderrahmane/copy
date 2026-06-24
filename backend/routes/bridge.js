@@ -4,29 +4,30 @@ const pool = require('../database/db');
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const fs = require('fs');
+const multer = require('multer');
+const multipart = multer().none();
 
 const getCart = async (customerId, sessionId) => {
   if (customerId) {
     let [carts] = await pool.query('SELECT * FROM carts WHERE customer_id = ?', [customerId]);
-    if (carts.length === 0) { const [r] = await pool.query('INSERT INTO carts (customer_id) VALUES (?)', [customerId]); return r.insertId; }
-    return carts[0].id;
+    if (carts.length > 0) return carts[0].id;
+    if (sessionId) {
+      let [sessionCarts] = await pool.query('SELECT * FROM carts WHERE session_id = ?', [sessionId]);
+      if (sessionCarts.length > 0) {
+        await pool.query('UPDATE carts SET customer_id = ? WHERE id = ?', [customerId, sessionCarts[0].id]);
+        return sessionCarts[0].id;
+      }
+    }
+    const [r] = await pool.query('INSERT INTO carts (customer_id) VALUES (?)', [customerId]);
+    return r.insertId;
   }
   if (sessionId) {
     let [carts] = await pool.query('SELECT * FROM carts WHERE session_id = ?', [sessionId]);
-    if (carts.length === 0) { const [r] = await pool.query('INSERT INTO carts (session_id) VALUES (?)', [sessionId]); return r.insertId; }
-    return carts[0].id;
+    if (carts.length > 0) return carts[0].id;
+    const [r] = await pool.query('INSERT INTO carts (session_id) VALUES (?)', [sessionId]);
+    return r.insertId;
   }
   return null;
-};
-
-const parseProductId = (id) => {
-  const num = parseInt(id);
-  if (!isNaN(num) && num <= 1000) return num;
-  try {
-    const [rows] = pool.query('SELECT id FROM products WHERE slug = ? OR id = ? LIMIT 1', [id, id]);
-    if (rows.length > 0) return rows[0].id;
-  } catch {}
-  return parseInt(id) || 1;
 };
 
 async function getCartData(cartId) {
@@ -130,21 +131,50 @@ router.get('/cart.json', async (req, res) => {
   } catch (err) { res.status(500).json(toShopifyCart([], 0)); }
 });
 
-// POST /cart/add - Shopify-compatible add to cart
-router.post('/cart/add', async (req, res) => {
+// GET /cart.js - alias for cart.json (legacy Shopify endpoint)
+router.get('/cart.js', async (req, res) => {
   try {
-    let productId, quantity = 1;
-    if (req.headers['content-type'] && req.headers['content-type'].includes('multipart')) {
-      productId = req.body.id;
-      quantity = parseInt(req.body.quantity) || 1;
-    } else if (req.headers['content-type'] && req.headers['content-type'].includes('json')) {
-      productId = req.body.id || req.body.product_id;
-      quantity = parseInt(req.body.quantity) || 1;
-    } else {
-      productId = req.body.id || req.body.product_id;
-      quantity = parseInt(req.body.quantity) || 1;
+    const sessionId = req.cookies?.cart_session || uuidv4();
+    const cartId = await getCart(req.customer?.id, sessionId);
+    if (!cartId) return res.json(toShopifyCart([], 0));
+    const { items, total } = await getCartData(cartId);
+    res.json(toShopifyCart(items, total));
+  } catch (err) { res.status(500).json(toShopifyCart([], 0)); }
+});
+
+async function resolveProductId(input) {
+  if (input == null) return null;
+  const num = Number(input);
+  if (!isNaN(num) && num > 0 && num <= 2147483647) {
+    const [p] = await pool.query('SELECT id FROM products WHERE id = ?', [num]);
+    if (p.length > 0) return p[0].id;
+  }
+  try {
+    const [v] = await pool.query('SELECT product_id FROM shopify_variants WHERE id = ?', [String(input)]);
+    if (v.length > 0) return v[0].product_id;
+  } catch (e) {
+    // shopify_variants table may not exist - ignore
+  }
+  const [s] = await pool.query('SELECT id FROM products WHERE slug = ?', [String(input)]);
+  if (s.length > 0) return s[0].id;
+  return null;
+}
+
+// POST /cart/add - Shopify-compatible add to cart
+router.post('/cart/add', multipart, async (req, res) => {
+  try {
+    let rawProductId = req.body.id || req.body.product_id;
+    let quantity = parseInt(req.body.quantity) || 1;
+    let productId = null;
+    if (rawProductId) {
+      productId = await resolveProductId(rawProductId);
     }
-    if (!productId) return res.status(400).json({ status: 400, message: 'Missing product ID', description: 'Vui lòng chọn sản phẩm' });
+    if (!productId && req.body.product_handle) {
+      const [s] = await pool.query('SELECT id FROM products WHERE slug = ?', [req.body.product_handle]);
+      if (s.length > 0) productId = s[0].id;
+    }
+    if (!productId) return res.status(400).json({ status: 400, message: 'Invalid product ID', description: 'Sản phẩm không tồn tại' });
+
     const sessionId = req.cookies?.cart_session || uuidv4();
     if (!req.cookies?.cart_session) res.cookie('cart_session', sessionId, { maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true });
     const cartId = await getCart(req.customer?.id, sessionId);
