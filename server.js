@@ -110,7 +110,23 @@ async function initializeDatabase() {
   }
 }
 
+async function runSeedIfNeeded() {
+  try {
+    const pool = require('./backend/database/db');
+    const [banners] = await pool.query('SELECT COUNT(*) as cnt FROM banners');
+    if (banners[0].cnt === 0) {
+      console.log('No banners found, running data seed...');
+      await require('./backend/database/seed-data')();
+    } else {
+      console.log(`Banners already seeded (${banners[0].cnt}), skipping`);
+    }
+  } catch (err) {
+    console.error('Seed check error:', err.message);
+  }
+}
+
 app.listen(PORT, async () => {
   await initializeDatabase();
+  await runSeedIfNeeded();
   console.log(`Server running on http://localhost:${PORT}`);
 });

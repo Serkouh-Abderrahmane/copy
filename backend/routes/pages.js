@@ -119,9 +119,9 @@ router.get('/', async (req, res) => {
 
       const sectionHeadingIdx = html.indexOf('m-section__heading');
       if (sectionHeadingIdx !== -1) {
-        const headingStart = html.indexOf('>', html.indexOf('>', sectionHeadingIdx) + 1) + 1;
+        const headingStart = html.indexOf('>', sectionHeadingIdx) + 1;
         const headingEnd = html.indexOf('</h2>', headingStart);
-        if (headingStart !== -1 && headingEnd !== -1) {
+        if (headingStart !== -1 && headingEnd !== -1 && headingEnd > headingStart) {
           html = html.slice(0, headingStart) + 'Sản phẩm nổi bật' + html.slice(headingEnd);
         }
       }
