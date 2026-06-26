@@ -49,6 +49,20 @@ function createHttrackStatic(baseDir) {
 app.use('/cdn', createHttrackStatic(path.join(__dirname, 'cdn')));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+const PLACEHOLDER_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><rect fill="#f0f0f0" width="400" height="400"/><text fill="#ccc" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" x="200" y="200">Hình ảnh</text></svg>';
+
+app.get('/cdn/shop/files/*', (req, res) => {
+  res.type('svg').send(PLACEHOLDER_SVG);
+});
+
+app.use('/img-placeholder', (req, res) => {
+  const text = req.query.text || 'Hình ảnh';
+  const width = parseInt(req.query.w) || 400;
+  const height = parseInt(req.query.h) || 400;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect fill="#f0f0f0" width="${width}" height="${height}"/><text fill="#bbb" font-family="Arial,sans-serif" font-size="${Math.min(width,height) * 0.05}" text-anchor="middle" x="${width/2}" y="${height/2}">${text}</text></svg>`;
+  res.type('svg').send(svg);
+});
+
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
