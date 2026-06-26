@@ -118,17 +118,10 @@ router.get('/', async (req, res) => {
         }
       }
 
-      const fcIdx = html.indexOf('featured_collection');
-      if (fcIdx !== -1) {
-        const headingIdx = html.indexOf('m-section__heading', fcIdx);
-        if (headingIdx !== -1) {
-          const contentStart = html.indexOf('>', headingIdx) + 1;
-          const contentEnd = html.indexOf('</h2>', contentStart);
-          if (contentStart !== -1 && contentEnd !== -1 && contentEnd > contentStart) {
-            html = html.slice(0, contentStart) + 'Sản phẩm nổi bật' + html.slice(contentEnd);
-          }
-        }
-      }
+      html = html.replace(
+        /(featured_collection[\s\S]*?m-section__heading[^>]*>)[^<]*(<\/h2>)/,
+        '$1Sản phẩm nổi bật$2'
+      );
 
       const collectionUrlIdx = html.indexOf('data-url=');
       if (collectionUrlIdx !== -1) {
@@ -140,10 +133,6 @@ router.get('/', async (req, res) => {
       }
     }
 
-    const debugMarker = '<!-- HOMEPAGE_GENERATED -->';
-    if (!html.includes(debugMarker)) {
-      html = html.replace('</body>', debugMarker + '</body>');
-    }
     res.send(html);
   } catch (err) {
     console.error('Homepage error:', err);
