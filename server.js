@@ -70,6 +70,7 @@ const adminRoutes = require('./backend/routes/admin');
 const bridgeRoutes = require('./backend/routes/bridge');
 const pageRoutes = require('./backend/routes/pages');
 const contactRoutes = require('./backend/routes/contact');
+const apiRoutes = require('./backend/routes/api');
 const checkoutRoutes = require('./backend/routes/checkout');
 
 app.use('/api/auth', authRoutes);
@@ -80,6 +81,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/search', searchRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api', contactRoutes);
+app.use('/api', apiRoutes);
 app.use('/checkout', checkoutRoutes);
 app.use('/', bridgeRoutes);
 app.use('/', pageRoutes);

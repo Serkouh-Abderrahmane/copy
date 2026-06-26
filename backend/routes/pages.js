@@ -34,10 +34,30 @@ const readOriginalHTML = (filePath) => {
 
 router.get('/', async (req, res) => {
   try {
-    const result = await Product.findAll({ featured: true, limit: 8 });
-    const categories = await Category.findAllWithProductCount();
     const html = readOriginalHTML('index.html');
-    res.send(html);
+    if (!html) return res.status(500).send('Error');
+    const mainStart = html.indexOf('<main role="main"');
+    const mainEnd = html.indexOf('</main>', mainStart);
+    const beforeBody = html.lastIndexOf('</body>');
+
+    let result;
+    if (mainStart !== -1 && mainEnd !== -1) {
+      const beforeMain = html.substring(0, mainStart);
+      const afterMain = html.substring(mainEnd + 7);
+      result = beforeMain +
+        '<main role="main" id="MainContent" data-homepage="true"><div class="container-fluid" style="text-align:center;padding:80px 20px;min-height:400px"><p style="color:#999">Đang tải...</p></div></main>' +
+        afterMain;
+    } else {
+      result = html;
+    }
+
+    if (beforeBody !== -1) {
+      result = result.slice(0, beforeBody) +
+        '<script src="/js/homepage.js" defer></script>' +
+        result.slice(beforeBody);
+    }
+
+    res.send(result);
   } catch (err) {
     const html = readOriginalHTML('index.html');
     if (html) return res.send(html);
