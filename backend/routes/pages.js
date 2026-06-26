@@ -333,7 +333,29 @@ router.get('/collections/products/:slug', async (req, res) => {
     const product = await Product.findBySlug(slug);
     if (product) {
       const indexHtml = readOriginalHTML('index.html');
-      if (indexHtml) return res.send(indexHtml);
+      if (!indexHtml) return res.status(500).send('Error');
+      const mainStart = indexHtml.indexOf('<main role="main"');
+      const mainEnd = indexHtml.indexOf('</main>', mainStart);
+      const beforeBody = indexHtml.lastIndexOf('</body>');
+
+      let result;
+      if (mainStart !== -1 && mainEnd !== -1) {
+        const beforeMain = indexHtml.substring(0, mainStart);
+        const afterMain = indexHtml.substring(mainEnd + 7);
+        result = beforeMain +
+          '<main role="main" id="MainContent" data-product="true"><div class="container-fluid" style="text-align:center;padding:80px 20px;min-height:400px"><p style="color:#999">Đang tải...</p></div></main>' +
+          afterMain;
+      } else {
+        result = indexHtml;
+      }
+
+      if (beforeBody !== -1) {
+        result = result.slice(0, beforeBody) +
+          '<script src="/js/product.js" defer></script>' +
+          result.slice(beforeBody);
+      }
+
+      return res.send(result);
     }
   } catch {}
   res.status(404).send('Product not found');
