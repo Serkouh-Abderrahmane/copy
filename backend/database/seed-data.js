@@ -57,17 +57,25 @@ async function seedData() {
   console.log('Starting data seed...');
   await createTables();
 
-  // Step 1: Deactivate extra products
+  // Step 1: Deactivate extra products, mark some as featured
   const [allProducts] = await pool.query('SELECT id, name FROM products');
+  let featuredCount = 0;
   for (const p of allProducts) {
     if (!ACTIVE_PRODUCT_IDS.includes(p.id)) {
       await pool.query('UPDATE products SET status = ? WHERE id = ?', ['inactive', p.id]);
       console.log(`Deactivated: ${p.name} (id: ${p.id})`);
     } else {
       await pool.query('UPDATE products SET status = ? WHERE id = ?', ['active', p.id]);
+      if (featuredCount < 8) {
+        await pool.query('UPDATE products SET featured = TRUE WHERE id = ?', [p.id]);
+        featuredCount++;
+      } else {
+        await pool.query('UPDATE products SET featured = FALSE WHERE id = ?', [p.id]);
+      }
       console.log(`Activated: ${p.name} (id: ${p.id})`);
     }
   }
+  console.log(`Featured products: ${featuredCount}`);
 
   // Step 2: Seed banners
   await pool.query('DELETE FROM banners');

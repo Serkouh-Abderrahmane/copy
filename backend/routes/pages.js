@@ -87,8 +87,12 @@ function injectBetween(html, startMarker, endMarker, content) {
 
 router.get('/', async (req, res) => {
   try {
-    const result = await Product.findAll({ featured: true, limit: 8 });
-    const featured = result.products || [];
+    let result = await Product.findAll({ featured: true, limit: 8 });
+    let featured = result.products || [];
+    if (featured.length === 0) {
+      result = await Product.findAll({ sort: 'newest', limit: 8 });
+      featured = result.products || [];
+    }
     const categories = await Category.findAllWithProductCount();
     let html = readOriginalHTML('index.html');
 

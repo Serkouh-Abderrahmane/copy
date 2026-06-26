@@ -114,12 +114,28 @@ async function runSeedIfNeeded() {
   try {
     const pool = require('./backend/database/db');
     const [banners] = await pool.query('SELECT COUNT(*) as cnt FROM banners WHERE image LIKE ?', ['%/img-placeholder%']);
-    if (banners[0].cnt > 0) {
-      console.log(`Fixing ${banners[0].cnt} banners with placeholder images...`);
+    const needsFullSeed = banners[0].cnt > 0;
+    const [featured] = await pool.query('SELECT COUNT(*) as cnt FROM products WHERE featured = TRUE');
+    const needsFeaturedFix = featured[0].cnt === 0;
+
+    if (needsFullSeed) {
+      console.log(`Fixing ${banners[0].cnt} banners with placeholder images, re-running seed...`);
       await pool.query('DELETE FROM banners');
       await require('./backend/database/seed-data')();
       return;
     }
+
+    if (needsFeaturedFix) {
+      console.log('No featured products found, fixing featured flags...');
+      const [active] = await pool.query('SELECT id FROM products WHERE status = ? ORDER BY id ASC LIMIT 8', ['active']);
+      for (let i = 0; i < active.length; i++) {
+        await pool.query('UPDATE products SET featured = TRUE WHERE id = ?', [active[i].id]);
+      }
+      await pool.query('UPDATE products SET featured = FALSE WHERE id NOT IN (' + active.map(() => '?').join(',') + ')', active.map(p => p.id));
+      console.log(`Marked ${active.length} products as featured`);
+      return;
+    }
+
     const [bannerCount] = await pool.query('SELECT COUNT(*) as cnt FROM banners');
     if (bannerCount[0].cnt === 0) {
       console.log('No banners found, running data seed...');
