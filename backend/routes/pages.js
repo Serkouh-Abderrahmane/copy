@@ -68,6 +68,7 @@ const readOriginalHTML = (filePath) => {
   if (resolvedPath) {
     let html = fs.readFileSync(resolvedPath, 'utf8');
     if (!filePath.startsWith('admin') && !filePath.includes('admin/')) {
+      html = html.replace('https://luonvuituoi.co/', '/');
       html = html.replace('</body>', '<script src="/js/bridge.js"></script><script src="/js/dynamic.js"></script></body>');
     }
     return html;
