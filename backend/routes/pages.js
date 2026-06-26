@@ -118,12 +118,15 @@ router.get('/', async (req, res) => {
         }
       }
 
-      const sectionHeadingIdx = html.indexOf('m-section__heading');
-      if (sectionHeadingIdx !== -1) {
-        const headingStart = html.indexOf('>', sectionHeadingIdx) + 1;
-        const headingEnd = html.indexOf('</h2>', headingStart);
-        if (headingStart !== -1 && headingEnd !== -1 && headingEnd > headingStart) {
-          html = html.slice(0, headingStart) + 'Sản phẩm nổi bật' + html.slice(headingEnd);
+      const fcIdx = html.indexOf('featured_collection');
+      if (fcIdx !== -1) {
+        const headingIdx = html.indexOf('m-section__heading', fcIdx);
+        if (headingIdx !== -1) {
+          const contentStart = html.indexOf('>', headingIdx) + 1;
+          const contentEnd = html.indexOf('</h2>', contentStart);
+          if (contentStart !== -1 && contentEnd !== -1 && contentEnd > contentStart) {
+            html = html.slice(0, contentStart) + 'Sản phẩm nổi bật' + html.slice(contentEnd);
+          }
         }
       }
 
