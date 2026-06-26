@@ -140,6 +140,10 @@ router.get('/', async (req, res) => {
       }
     }
 
+    const debugMarker = '<!-- HOMEPAGE_GENERATED -->';
+    if (!html.includes(debugMarker)) {
+      html = html.replace('</body>', debugMarker + '</body>');
+    }
     res.send(html);
   } catch (err) {
     console.error('Homepage error:', err);
