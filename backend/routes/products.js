@@ -24,6 +24,17 @@ router.get('/search', async (req, res) => {
   } catch (err) { res.status(500).json({ message: err.message }); }
 });
 
+router.get('/homepage', async (req, res) => {
+  try {
+    const pool = require('../database/db');
+    const [banners] = await pool.query('SELECT * FROM banners WHERE status = ? ORDER BY sort_order', ['active']);
+    const featured = await Product.findAll({ featured: true, limit: 8 });
+    const newArrivals = await Product.findAll({ limit: 8, sort: 'newest' });
+    const categories = await Category.findAllWithProductCount();
+    res.json({ banners, featured: featured.products, newArrivals: newArrivals.products, categories });
+  } catch (err) { res.status(500).json({ message: err.message }); }
+});
+
 router.get('/:slug', async (req, res) => {
   try {
     const product = await Product.findBySlug(req.params.slug);
