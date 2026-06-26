@@ -113,12 +113,19 @@ async function initializeDatabase() {
 async function runSeedIfNeeded() {
   try {
     const pool = require('./backend/database/db');
-    const [banners] = await pool.query('SELECT COUNT(*) as cnt FROM banners');
-    if (banners[0].cnt === 0) {
+    const [banners] = await pool.query('SELECT COUNT(*) as cnt FROM banners WHERE image LIKE ?', ['%/img-placeholder%']);
+    if (banners[0].cnt > 0) {
+      console.log(`Fixing ${banners[0].cnt} banners with placeholder images...`);
+      await pool.query('DELETE FROM banners');
+      await require('./backend/database/seed-data')();
+      return;
+    }
+    const [bannerCount] = await pool.query('SELECT COUNT(*) as cnt FROM banners');
+    if (bannerCount[0].cnt === 0) {
       console.log('No banners found, running data seed...');
       await require('./backend/database/seed-data')();
     } else {
-      console.log(`Banners already seeded (${banners[0].cnt}), skipping`);
+      console.log(`Banners already seeded (${bannerCount[0].cnt}), skipping`);
     }
   } catch (err) {
     console.error('Seed check error:', err.message);
