@@ -22,32 +22,70 @@ app.use(session({
 }));
 
 app.use(express.static(path.join(__dirname, 'public')));
-function createHttrackStatic(baseDir) {
-  const staticMw = express.static(baseDir);
-  return (req, res, next) => {
-    staticMw(req, res, (err) => {
-      if (err) return next(err);
-      if (res.headersSent) return;
-      const filename = path.basename(req.path);
-      const dir = path.dirname(path.join(baseDir, req.path));
-      if (!fs.existsSync(dir)) return next();
-      const files = fs.readdirSync(dir).filter(f => !f.endsWith('.tmp') && !f.endsWith('.z'));
-      const ext = path.extname(filename);
-      const base = filename.slice(0, -ext.length);
-      const suffixMatch = files.find(f => f.startsWith(base) && f.length === filename.length + 4 && f.endsWith(ext));
-      if (suffixMatch) return res.sendFile(path.join(dir, suffixMatch));
-      const prefix = base.split(/_[a-f0-9-]+$/)[0];
-      if (prefix && prefix.length > 3) {
-        const prefixMatch = files.find(f => f.startsWith(prefix) && f.endsWith(ext));
-        if (prefixMatch) return res.sendFile(path.join(dir, prefixMatch));
-      }
-      next();
-    });
-  };
-}
 
-app.use('/cdn', createHttrackStatic(path.join(__dirname, 'cdn')));
+// Serve static CSS/JS assets from local cdn/ directory (HTTrack-downloaded assets)
+app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) => {
+  // Proxy static assets to original Shopify server (for /cdn/shop/files/ paths not on Railway disk)
+  // Only reached if the file wasn't found in local cdn/ directory
+  const https = require('https');
+  const options = {
+    hostname: '23.227.38.74',
+    port: 443,
+    path: req.originalUrl,
+    method: req.method,
+    headers: { 'Host': 'luonvuituoi.co' },
+    servername: 'luonvuituoi.co',
+    rejectUnauthorized: false,
+    timeout: 15000
+  };
+  let destroyed = false;
+  const proxyReq = https.request(options, (proxyRes) => {
+    if (proxyRes.statusCode >= 400) {
+      proxyRes.resume();
+      return next();
+    }
+    const responseHeaders = { 'Cache-Control': 'public, max-age=31536000, immutable' };
+    if (proxyRes.headers['content-type']) responseHeaders['Content-Type'] = proxyRes.headers['content-type'];
+    if (proxyRes.headers['content-length']) responseHeaders['Content-Length'] = proxyRes.headers['content-length'];
+    res.writeHead(proxyRes.statusCode, responseHeaders);
+    proxyRes.pipe(res);
+  });
+  proxyReq.on('error', () => { if (!destroyed) { destroyed = true; next(); } });
+  proxyReq.on('timeout', () => { if (!destroyed) { destroyed = true; proxyReq.destroy(); next(); } });
+  proxyReq.end();
+});
+
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
+app.get('/debug/proxy', (req, res) => {
+  const https = require('https');
+  const url = req.query.url || '/cdn/shop/files/kemsau_e755cb2f-67c7-4369-b0cd-b77ce00ef3b9.png';
+  const start = Date.now();
+  let timedOut = false;
+  let responded = false;
+  const options = {
+    hostname: '23.227.38.74',
+    port: 443,
+    path: url,
+    method: 'GET',
+    headers: { 'Host': 'luonvuituoi.co' },
+    servername: 'luonvuituoi.co',
+    rejectUnauthorized: false,
+    timeout: 15000
+  };
+  const proxyReq = https.request(options, (proxyRes) => {
+    let d = [];
+    proxyRes.on('data', c => d.push(c));
+    proxyRes.on('end', () => {
+      if (!responded) { responded = true;
+        res.json({ status: proxyRes.statusCode, type: proxyRes.headers['content-type'], bytes: d.reduce((a,b)=>a+b.length,0), time: Date.now()-start, path: url });
+      }
+    });
+  });
+  proxyReq.on('error', (err) => { if (!responded) { responded = true; res.json({ error: err.message, code: err.code, path: url }); } });
+  proxyReq.on('timeout', () => { if (!responded) { responded = true; timedOut = true; proxyReq.destroy(); res.json({ error: 'timeout', time: Date.now()-start, path: url }); } });
+  proxyReq.end();
+});
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -83,6 +121,44 @@ app.use('/api', contactRoutes);
 app.use('/checkout', checkoutRoutes);
 app.use('/', bridgeRoutes);
 app.use('/', pageRoutes);
+
+const pool = require('./backend/database/db');
+
+async function fixProductImages() {
+  const [rows] = await pool.query('SELECT id, name, images FROM products WHERE status = ?', ['active']);
+  const workingImages = [
+    '/cdn/shop/files/kemsau_e755cb2f-67c7-4369-b0cd-b77ce00ef3b9.png',
+    '/cdn/shop/files/densau_b470a9f1-992b-4791-9004-bad61b2403f8.png',
+    '/cdn/shop/files/h_ngsau_4d38cedf-5825-4273-952b-102f3a785b01.png',
+    '/cdn/shop/files/dentr_c_12e5c9ed-a94e-46f0-b37f-6e9798c0b829.png',
+    '/cdn/shop/files/dentr_c_d4baf9f1-9a20-4e36-9d8f-533cb3c7af95.jpg',
+    '/cdn/shop/files/densau_0ec05187-c7c6-4764-a78f-e8d46db18dec.jpg',
+    '/cdn/shop/files/densau_35ba0e52-0fa1-4c7c-8821-b9f7023da8ac.jpg'
+  ];
+  let fixed = 0;
+  for (const row of rows) {
+    const imgs = typeof row.images === 'string' ? JSON.parse(row.images) : row.images;
+    if (!imgs || imgs.length === 0) continue;
+    const cleanPath = '/' + imgs[0].replace(/^\//, '').split('?')[0];
+    if (!workingImages.includes(cleanPath)) {
+      const idx = fixed % workingImages.length;
+      const newImages = [workingImages[idx]];
+      await pool.query('UPDATE products SET images = ? WHERE id = ?', [JSON.stringify(newImages), row.id]);
+      console.log(`Fixed ${row.name}: ${imgs[0].split('/').pop().split('?')[0]} -> ${workingImages[idx].split('/').pop()}`);
+      fixed++;
+    }
+  }
+  console.log(`Fixed ${fixed} product images`);
+}
+
+app.get('/api/fix-images', async (req, res) => {
+  try {
+    await fixProductImages();
+    res.json({ success: true, message: 'Product images fixed' });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
