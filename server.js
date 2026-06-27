@@ -23,12 +23,8 @@ app.use(session({
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Fallback for dathongbao.png (not on Railway volume)
-app.get('/cdn/shop/files/dathongbao.png', (req, res) => {
-  const placeholder = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==', 'base64');
-  res.set('Content-Type', 'image/png');
-  res.send(placeholder);
-});
+// Generate placeholder for missing images
+const placeholderImg = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==', 'base64');
 
 // Serve static CSS/JS assets from local cdn/ directory (HTTrack-downloaded assets)
 app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) => {
@@ -49,7 +45,10 @@ app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) =>
   const proxyReq = https.request(options, (proxyRes) => {
     if (proxyRes.statusCode >= 400) {
       proxyRes.resume();
-      return next();
+      res.set('Content-Type', 'image/png');
+      res.set('Cache-Control', 'public, max-age=86400');
+      res.send(placeholderImg);
+      return;
     }
     const responseHeaders = { 'Cache-Control': 'public, max-age=31536000, immutable' };
     if (proxyRes.headers['content-type']) responseHeaders['Content-Type'] = proxyRes.headers['content-type'];
@@ -57,8 +56,8 @@ app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) =>
     res.writeHead(proxyRes.statusCode, responseHeaders);
     proxyRes.pipe(res);
   });
-  proxyReq.on('error', () => { if (!destroyed) { destroyed = true; next(); } });
-  proxyReq.on('timeout', () => { if (!destroyed) { destroyed = true; proxyReq.destroy(); next(); } });
+  proxyReq.on('error', () => { if (!destroyed) { destroyed = true; res.set('Content-Type', 'image/png'); res.send(placeholderImg); } });
+  proxyReq.on('timeout', () => { if (!destroyed) { destroyed = true; proxyReq.destroy(); res.set('Content-Type', 'image/png'); res.send(placeholderImg); } });
   proxyReq.end();
 });
 

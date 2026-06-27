@@ -207,9 +207,13 @@
     width: calc(100% / var(--items, 1));
     flex: 0 0 auto;
   }
+  .m\:grid.swiper-wrapper {
+    display: grid;
+  }
   .m\:grid .swiper-slide,
   .m-mixed-layout__inner .swiper-slide {
     width: auto;
+    min-width: 0;
     flex: none;
   }
   @media (max-width: 1023px) {
