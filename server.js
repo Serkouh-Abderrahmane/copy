@@ -23,6 +23,13 @@ app.use(session({
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Fallback for dathongbao.png (not on Railway volume)
+app.get('/cdn/shop/files/dathongbao.png', (req, res) => {
+  const placeholder = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==', 'base64');
+  res.set('Content-Type', 'image/png');
+  res.send(placeholder);
+});
+
 // Serve static CSS/JS assets from local cdn/ directory (HTTrack-downloaded assets)
 app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) => {
   // Proxy static assets to original Shopify server (for /cdn/shop/files/ paths not on Railway disk)
