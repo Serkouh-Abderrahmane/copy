@@ -68,8 +68,10 @@ const readOriginalHTML = (filePath) => {
   if (resolvedPath) {
     let html = fs.readFileSync(resolvedPath, 'utf8');
     if (!filePath.startsWith('admin') && !filePath.includes('admin/')) {
-      html = html.replace('https://luonvuituoi.co/', '/');
+      html = html.replace(/https:\/\/luonvuituoi\.co\//g, '/');
+      html = html.replace('<head>', '<head><base href="/">');
       html = html.replace('</body>', '<script src="/js/bridge.js"></script><script src="/js/dynamic.js"></script></body>');
+
     }
     return html;
   }
@@ -152,23 +154,50 @@ router.get('/cart', (req, res) => {
   res.status(404).send('Cart page not found');
 });
 
+async function renderAllProducts(req, res) {
+  try {
+    const result = await Product.findAll({ limit: 200 });
+    const products = result.products || [];
+    const indexHtml = readOriginalHTML('index.html');
+    if (!indexHtml) return res.status(500).send('Error');
+    const mainStart = indexHtml.indexOf('<main role="main"');
+    const mainEnd = indexHtml.indexOf('</main>', mainStart);
+    if (mainStart === -1 || mainEnd === -1) return res.send(indexHtml);
+    const headerPart = indexHtml.substring(0, mainStart);
+    const footerPart = indexHtml.substring(mainEnd + 7);
+    const productRows = products.map((p, i) => renderProductCard(p, i)).join('\n');
+    const html = headerPart +
+      `<main role="main" id="MainContent">
+<div class="container-fluid" style="padding-top:30px;padding-bottom:30px;">
+  <h1 class="m:font-medium m:text-3xl md:m:text-4xl" style="margin-bottom:24px;">Tất cả sản phẩm</h1>
+  <div class="m:grid m:grid-cols-2 md:m:grid-cols-3 lg:m:grid-cols-4 m:gap-4">${productRows}</div>
+</div>
+</main>` +
+      footerPart;
+    res.send(html);
+  } catch (err) {
+    console.error('All products error:', err);
+    res.status(500).send('Error');
+  }
+}
+
 router.get('/collections/:slug', async (req, res) => {
+  const slug = req.params.slug;
+  if (slug === 'all') {
+    return renderAllProducts(req, res);
+  }
   const possibleFiles = [
-    `collections/${req.params.slug}.html`,
-    `collections/${req.params.slug}4658.html`,
-    `collections/${req.params.slug}9ba9.html`
+    `collections/${slug}.html`,
+    `collections/${slug}4658.html`,
+    `collections/${slug}9ba9.html`
   ];
   for (const f of possibleFiles) {
     const html = readOriginalHTML(f);
     if (html) return res.send(html);
   }
   try {
-    const category = await Category.findBySlug(req.params.slug);
-    if (!category) {
-      const allHtml = readOriginalHTML('collections/all.html');
-      if (allHtml) return res.send(allHtml);
-      return res.status(404).send('Collection not found');
-    }
+    const category = await Category.findBySlug(slug);
+    if (!category) return renderAllProducts(req, res);
     const { products } = await Product.findAll({ category: category.id, limit: 100 });
     const indexHtml = readOriginalHTML('index.html');
     if (!indexHtml) return res.status(500).send('Error');
@@ -181,42 +210,7 @@ router.get('/collections/:slug', async (req, res) => {
     const headerPart = indexHtml.substring(0, mainStart);
     const footerPart = indexHtml.substring(mainEnd + 7);
 
-    const productRows = products.map((p, i) => {
-      const price = p.sale_price || p.price;
-      const comparePrice = p.compare_price || p.price;
-      const pct = comparePrice > price ? Math.round((1 - price / comparePrice) * 100) : 0;
-      const images = p.images ? (typeof p.images === 'string' ? JSON.parse(p.images) : p.images) : [];
-      const img = images[0] || '';
-      const imgSrc = img.startsWith('http') ? img : (img ? '/' + img.replace(/^\//, '') : '');
-      const showSale = pct > 0;
-      const hasHover = images.length > 1;
-      const hoverImg = hasHover ? images[1] : '';
-      const hoverSrc = hoverImg.startsWith('http') ? hoverImg : (hoverImg ? '/' + hoverImg.replace(/^\//, '') : '');
-
-      return `<div class="swiper-slide m:column">
-<div class="m-product-card m-product-card--style-1${showSale ? ' m-product-card--onsale' : ''}${hasHover ? ' m-product-card--show-second-img' : ''} m-scroll-trigger animate--fade-in" data-view="card" data-product-id="${p.id}" data-cascade style="--animation-order: ${i + 1};">
-  <div class="m-product-card__media">
-    <a class="m-product-card__link m:block m:w-full" href="/products/${p.slug}" aria-label="${p.name}">
-      <div class="m-product-card__main-image"><responsive-image class="m-image" style="--aspect-ratio: 0.75"><img src="${imgSrc}" alt="${p.name}" width="400" height="533" fetchpriority="low" class="m:w-full m:h-full" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"></responsive-image></div>${hasHover ? `<div class="m-product-card__hover-image"><responsive-image class="m-image" style="--aspect-ratio: 0.75"><img src="${hoverSrc}" alt="${p.name}" width="400" height="533" class="m:w-full m:h-full" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"></responsive-image></div>` : ''}
-    </a>
-    <div class="m-product-card__tags">${showSale ? `<span class="m-product-card__tag-name m-product-tag m-product-tag--sale m-gradient m-color-badge-sale">-${pct}%</span>` : ''}</div>
-    <span class="m-product-tag m-product-tag--soldout m-gradient m-color-footer" style="display: ${p.stock && p.stock <= 0 ? 'flex' : 'none'};">Bán hết</span>
-    <div class="m-product-card__action m:hidden lg:m:block"></div>
-  </div>
-  <div class="m-product-card__content m:text-left">
-    <div class="m-product-card__info">
-      <h3 class="m-product-card__title"><a href="/products/${p.slug}" class="m-product-card__name">${p.name}</a></h3>
-      <div class="m-product-card__price">
-        <div class="m-price m:inline-flex m:items-center m:flex-wrap ${showSale ? 'm-price--on-sale' : ''}" data-sale-badge-type="percentage">
-          <div class="m-price__regular"><span class="m:visually-hidden m:visually-hidden--inline">Giá cả phải chăng</span><span class="m-price-item m-price-item--regular">${price.toLocaleString('vi-VN')}₫</span></div>
-          ${showSale ? `<div class="m-price__sale"><span class="m:visually-hidden m:visually-hidden--inline">Giá bán</span><span class="m-price-item m-price-item--sale m-price-item--last">${price.toLocaleString('vi-VN')}₫</span><span class="m-price-item m-price-item--compare">${comparePrice.toLocaleString('vi-VN')}₫</span></div>` : ''}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>`;
-    }).join('\n');
+    const productRows = products.map((p, i) => renderProductCard(p, i)).join('\n');
 
     const html = headerPart +
       `<!-- END sections: header-group --><main role="main" id="MainContent">
