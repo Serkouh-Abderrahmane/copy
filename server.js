@@ -122,43 +122,7 @@ app.use('/checkout', checkoutRoutes);
 app.use('/', bridgeRoutes);
 app.use('/', pageRoutes);
 
-const pool = require('./backend/database/db');
 
-async function fixProductImages() {
-  const [rows] = await pool.query('SELECT id, name, images FROM products WHERE status = ?', ['active']);
-  const workingImages = [
-    '/cdn/shop/files/kemsau_e755cb2f-67c7-4369-b0cd-b77ce00ef3b9.png',
-    '/cdn/shop/files/densau_b470a9f1-992b-4791-9004-bad61b2403f8.png',
-    '/cdn/shop/files/h_ngsau_4d38cedf-5825-4273-952b-102f3a785b01.png',
-    '/cdn/shop/files/dentr_c_12e5c9ed-a94e-46f0-b37f-6e9798c0b829.png',
-    '/cdn/shop/files/dentr_c_d4baf9f1-9a20-4e36-9d8f-533cb3c7af95.jpg',
-    '/cdn/shop/files/densau_0ec05187-c7c6-4764-a78f-e8d46db18dec.jpg',
-    '/cdn/shop/files/densau_35ba0e52-0fa1-4c7c-8821-b9f7023da8ac.jpg'
-  ];
-  let fixed = 0;
-  for (const row of rows) {
-    const imgs = typeof row.images === 'string' ? JSON.parse(row.images) : row.images;
-    if (!imgs || imgs.length === 0) continue;
-    const cleanPath = '/' + imgs[0].replace(/^\//, '').split('?')[0];
-    if (!workingImages.includes(cleanPath)) {
-      const idx = fixed % workingImages.length;
-      const newImages = [workingImages[idx]];
-      await pool.query('UPDATE products SET images = ? WHERE id = ?', [JSON.stringify(newImages), row.id]);
-      console.log(`Fixed ${row.name}: ${imgs[0].split('/').pop().split('?')[0]} -> ${workingImages[idx].split('/').pop()}`);
-      fixed++;
-    }
-  }
-  console.log(`Fixed ${fixed} product images`);
-}
-
-app.get('/api/fix-images', async (req, res) => {
-  try {
-    await fixProductImages();
-    res.json({ success: true, message: 'Product images fixed' });
-  } catch (err) {
-    res.status(500).json({ success: false, error: err.message });
-  }
-});
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
