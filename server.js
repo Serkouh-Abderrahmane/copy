@@ -203,7 +203,6 @@ async function initializeDatabase() {
 async function runSeedIfNeeded() {
   try {
     const pool = require('./backend/database/db');
-    const pool = require('./backend/database/db');
 
     // Force re-seed if any banner still uses the old colliding path
     const [needsReseed] = await pool.query("SELECT COUNT(*) as cnt FROM banners WHERE image LIKE '%32d65.png'");
