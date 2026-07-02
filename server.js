@@ -107,6 +107,18 @@ app.use('/cdn', (req, res, next) => {
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+app.get('/debug/files', (req, res) => {
+  const dir = path.join(__dirname, 'cdn', 'shop', 'files');
+  if (fs.existsSync(dir)) {
+    const files = fs.readdirSync(dir).slice(0, 50);
+    const bannerFiles = files.filter(f => f.includes('Banner_Ngang')).map(f => ({ name: f, size: fs.statSync(path.join(dir, f)).size }));
+    const sampleProductFiles = files.filter(f => f.includes('kemsau') || f.includes('densau')).slice(0, 5).map(f => ({ name: f, size: fs.statSync(path.join(dir, f)).size }));
+    res.json({ totalFiles: files.length, bannerFiles, sampleProductFiles, dir });
+  } else {
+    res.json({ error: 'Directory not found', dir });
+  }
+});
+
 app.get('/debug/proxy', (req, res) => {
   const https = require('https');
   const url = req.query.url || '/cdn/shop/files/kemsau_e755cb2f-67c7-4369-b0cd-b77ce00ef3b9.png';
