@@ -1,1 +1,4 @@
-
+responsive-image {
+  display: block;
+  aspect-ratio: var(--aspect-ratio);
+}
