@@ -70,8 +70,6 @@ const readOriginalHTML = (filePath) => {
     if (!filePath.startsWith('admin') && !filePath.includes('admin/')) {
       html = html.replace(/https:\/\/luonvuituoi\.co\//g, '/');
       html = html.replace('<head>', '<head><base href="/">');
-      html = html.replace(/Banner_Ngang_(\d+)_([a-f0-9-]+)\.(png|jpg|webp)/g, 'Banner_Ngang_$1.$3');
-      html = html.replace(/Banner_Ngang_(\d+)[a-f0-9]+\.(png|jpg|webp)/g, 'Banner_Ngang_$1.$2');
       html = html.replace('</body>', '<script src="/js/bridge.js"></script><script src="/js/dynamic.js"></script></body>');
 
     }
