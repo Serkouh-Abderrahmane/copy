@@ -24,14 +24,23 @@ router.get('/search', async (req, res) => {
   } catch (err) { res.status(500).json({ message: err.message }); }
 });
 
+// Strip Shopify cache-busting hash suffix (4 hex chars or UUID) from banner filenames
+// to get clean URLs that the Shopify CDN proxy can serve
+function fixBannerPath(img) {
+  return img
+    .replace(/\/Banner_Ngang_(\d)_([a-f0-9-]+)\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$3')
+    .replace(/\/Banner_Ngang_(\d)[a-f0-9]+\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$2');
+}
+
 router.get('/homepage', async (req, res) => {
   try {
     const pool = require('../database/db');
     const [banners] = await pool.query('SELECT * FROM banners WHERE status = ? ORDER BY sort_order', ['active']);
+    const fixedBanners = banners.map(b => ({ ...b, image: fixBannerPath(b.image) }));
     const featured = await Product.findAll({ featured: true, limit: 8 });
     const newArrivals = await Product.findAll({ limit: 8, sort: 'newest' });
     const categories = await Category.findAllWithProductCount();
-    res.json({ banners, featured: featured.products, newArrivals: newArrivals.products, categories });
+    res.json({ banners: fixedBanners, featured: featured.products, newArrivals: newArrivals.products, categories });
   } catch (err) { res.status(500).json({ message: err.message }); }
 });
 
