@@ -26,12 +26,59 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Generate placeholder for missing images
 const placeholderImg = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==', 'base64');
 
-// Serve static CSS/JS assets from local cdn/ directory (HTTrack-downloaded assets)
-app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) => {
-  // Proxy static assets to original Shopify server (for /cdn/shop/files/ paths not on Railway disk)
-  // Only reached if the file wasn't found in local cdn/ directory
+// Serve static assets from local cdn/ directory with smart filename resolution
+// Handles the mismatch between DB image paths (no hash suffix) and actual filenames (have hex hash suffix)
+app.use('/cdn', (req, res, next) => {
+  const filePath = path.join(__dirname, 'cdn', req.path.replace(/^\//, ''));
+  const dir = path.dirname(filePath);
+  const base = path.basename(filePath);
+
+  const serveFile = (targetPath) => {
+    if (fs.existsSync(targetPath)) {
+      const ext = path.extname(targetPath).toLowerCase();
+      const mimeMap = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.ico': 'image/x-icon' };
+      res.set('Content-Type', mimeMap[ext] || 'application/octet-stream');
+      res.set('Cache-Control', 'public, max-age=31536000, immutable');
+      res.sendFile(targetPath);
+      return true;
+    }
+    return false;
+  };
+
+  if (serveFile(filePath)) return;
+
+  // Try finding file by removing/adding hash suffix
+  if (fs.existsSync(dir)) {
+    const ext = path.extname(base);
+    const nameNoExt = base.slice(0, -ext.length);
+    const files = fs.readdirSync(dir);
+
+    // Try matching: requested path has no hash, file on disk has hash appended
+    // e.g., requested: kemsau_uuid.png, disk: kemsau_uuidHHHH.png
+    const withHash = files.find(f => {
+      const fext = path.extname(f);
+      const fname = f.slice(0, -fext.length);
+      return fext.toLowerCase() === ext.toLowerCase() && fname.startsWith(nameNoExt) && fname.length === nameNoExt.length + 4 && /^[a-f0-9]+$/i.test(fname.slice(nameNoExt.length));
+    });
+    if (withHash && serveFile(path.join(dir, withHash))) return;
+
+    // Try matching: requested path has hash, file on disk has no hash
+    // e.g., requested: kemsau_uuidHHHH.png, disk: kemsau_uuid.png
+    const nameNoHash = nameNoExt.replace(/([a-f0-9]{4})$/, '');
+    if (nameNoHash.length < nameNoExt.length) {
+      const withoutHash = files.find(f => {
+        const fext = path.extname(f);
+        const fname = f.slice(0, -fext.length);
+        return fext.toLowerCase() === ext.toLowerCase() && fname === nameNoHash;
+      });
+      if (withoutHash && serveFile(path.join(dir, withoutHash))) return;
+    }
+  }
+
+  // Fallback: proxy to Shopify CDN (for files not available locally)
   const https = require('https');
-  const options = {
+  let destroyed = false;
+  const proxyReq = https.request({
     hostname: '23.227.38.74',
     port: 443,
     path: req.originalUrl,
@@ -40,15 +87,12 @@ app.use('/cdn', express.static(path.join(__dirname, 'cdn')), (req, res, next) =>
     servername: 'luonvuituoi.co',
     rejectUnauthorized: false,
     timeout: 15000
-  };
-  let destroyed = false;
-  const proxyReq = https.request(options, (proxyRes) => {
+  }, (proxyRes) => {
     if (proxyRes.statusCode >= 400) {
       proxyRes.resume();
       res.set('Content-Type', 'image/png');
       res.set('Cache-Control', 'public, max-age=86400');
-      res.send(placeholderImg);
-      return;
+      return res.send(placeholderImg);
     }
     const responseHeaders = { 'Cache-Control': 'public, max-age=31536000, immutable' };
     if (proxyRes.headers['content-type']) responseHeaders['Content-Type'] = proxyRes.headers['content-type'];
