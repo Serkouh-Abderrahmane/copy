@@ -37,6 +37,16 @@
   @font-face {  font-family: Jost;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n7.921dc18c13fa0b0c94c5e2517ffe06139c3615a3.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n7.cbfc16c98c1e195f46c536e775e4e959c5f2f22b.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 900;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n9.cd269fa9adcae864ab1df15826ceb2fd310a3d4a.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n9.fd15e8012129a3f22bd292bf1f8b87a15f894bd5.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 600;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n6.ec1178db7a7515114a2d84e3dd680832b7af8b99.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n6.b1178bb6bdd3979fef38e103a3816f6980aeaff9.woff") format("woff");}:root {  --font-stack-header: Jost, sans-serif;  --font-style-header: normal;  --font-weight-header: 700;  --font-weight-header--bolder: 900;  --font-weight-header--lighter: 600;}@font-face {  font-family: Jost;  font-weight: 400;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n4.d47a1b6347ce4a4c9f437608011273009d91f2b7.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n4.791c46290e672b3f85c3d1c651ef2efa3819eadd.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n7.921dc18c13fa0b0c94c5e2517ffe06139c3615a3.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n7.cbfc16c98c1e195f46c536e775e4e959c5f2f22b.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 700;  font-style: normal;  font-display: swap;  src: url("cdn/fonts/jost/jost_n7.921dc18c13fa0b0c94c5e2517ffe06139c3615a3.woff2") format("woff2"),       url("cdn/fonts/jost/jost_n7.cbfc16c98c1e195f46c536e775e4e959c5f2f22b.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 400;  font-style: italic;  font-display: swap;  src: url("cdn/fonts/jost/jost_i4.b690098389649750ada222b9763d55796c5283a5.woff2") format("woff2"),       url("cdn/fonts/jost/jost_i4.fd766415a47e50b9e391ae7ec04e2ae25e7e28b0.woff") format("woff");}@font-face {  font-family: Jost;  font-weight: 700;  font-style: italic;  font-display: swap;  src: url("cdn/fonts/jost/jost_i7.d8201b854e41e19d7ed9b1a31fe4fe71deea6d3f.woff2") format("woff2"),       url("cdn/fonts/jost/jost_i7.eae515c34e26b6c853efddc3fc0c552e0de63757.woff") format("woff");}:root {  --font-weight-body--bold: 700;  --font-weight-body--bolder: 700;  --font-stack-body: Jost, sans-serif;  --font-style-body: normal;  --font-weight-body: 400;}
 </style>
 <style>
+  responsive-image {
+    display: block;
+    aspect-ratio: var(--aspect-ratio);
+  }
+  .m\:w-full {
+    width: 100%;
+  }
+  .m\:h-full {
+    height: 100%;
+  }
   html {
     font-size: calc(var(--font-base-size, 16) * 1px);
     -webkit-font-smoothing: antialiased;
