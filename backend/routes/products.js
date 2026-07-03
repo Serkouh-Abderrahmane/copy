@@ -24,12 +24,10 @@ router.get('/search', async (req, res) => {
   } catch (err) { res.status(500).json({ message: err.message }); }
 });
 
-// Strip Shopify cache-busting hash suffix (4 hex chars or UUID) from banner filenames
-// to get clean URLs that the Shopify CDN proxy can serve
 function fixBannerPath(img) {
   return img
-    .replace(/\/Banner_Ngang_(\d)_([a-f0-9-]+)\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$3')
-    .replace(/\/Banner_Ngang_(\d)[a-f0-9]+\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$2');
+    .replace(/\/Banner_Ngang_(\d+)_([a-f0-9-]+)\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$3')
+    .replace(/\/Banner_Ngang_(\d+)[a-f0-9]+\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$2');
 }
 
 router.get('/homepage', async (req, res) => {

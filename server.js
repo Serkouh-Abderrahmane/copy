@@ -203,26 +203,19 @@ async function initializeDatabase() {
 async function runSeedIfNeeded() {
   try {
     const pool = require('./backend/database/db');
-
-    // Force re-seed if any banner still uses the old colliding path
-    const [needsReseed] = await pool.query("SELECT COUNT(*) as cnt FROM banners WHERE image LIKE '%32d65.png'");
-    if (needsReseed[0].cnt > 0) {
-      console.log(`Found ${needsReseed[0].cnt} banners with old colliding path, re-running seed...`);
-      await pool.query('DELETE FROM banners');
-      await require('./backend/database/seed-data')();
-      return;
-    }
-
     const [banners] = await pool.query('SELECT COUNT(*) as cnt FROM banners WHERE image LIKE ?', ['%/img-placeholder%']);
-    if (banners[0].cnt > 0) {
+    const needsFullSeed = banners[0].cnt > 0;
+    const [featured] = await pool.query('SELECT COUNT(*) as cnt FROM products WHERE featured = TRUE');
+    const needsFeaturedFix = featured[0].cnt === 0;
+
+    if (needsFullSeed) {
       console.log(`Fixing ${banners[0].cnt} banners with placeholder images, re-running seed...`);
       await pool.query('DELETE FROM banners');
       await require('./backend/database/seed-data')();
       return;
     }
 
-    const [featured] = await pool.query('SELECT COUNT(*) as cnt FROM products WHERE featured = TRUE');
-    if (featured[0].cnt === 0) {
+    if (needsFeaturedFix) {
       console.log('No featured products found, fixing featured flags...');
       const [active] = await pool.query('SELECT id FROM products WHERE status = ? ORDER BY id ASC LIMIT 8', ['active']);
       for (let i = 0; i < active.length; i++) {

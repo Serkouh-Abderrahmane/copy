@@ -5,7 +5,7 @@ const BANNERS = [
   { title: 'Bộ Sưu Tập Mới', subtitle: 'Khám phá phong cách của bạn', image: '/cdn/shop/files/Banner_Ngang_565c4.png', link: '/collections/all', sort_order: 1 },
   { title: 'Áo Thun Relaxed Fit', subtitle: 'Thoải mái, phong cách, cá tính', image: '/cdn/shop/files/Banner_Ngang_4_613c644d-34b9-4f3d-b7f9-7c56bb32c377fc86.png', link: '/collections/ao-thun', sort_order: 2 },
   { title: 'Áo Hoodie & Sweater', subtitle: 'Ấm áp và thời trang', image: '/cdn/shop/files/Banner_Ngang_3_98ba563d-67cf-41fc-8727-118e7a30d77934ed.png', link: '/collections/ao-hoodie', sort_order: 3 },
-  { title: 'Phụ Kiện - Túi Canvas', subtitle: 'Hoàn thiện phong cách của bạn', image: '/cdn/shop/files/Banner_Ngang_1acba.png', link: '/collections/tui-canvas', sort_order: 4 },
+  { title: 'Phụ Kiện - Túi Canvas', subtitle: 'Hoàn thiện phong cách của bạn', image: '/cdn/shop/files/Banner_Ngang_32d65.png', link: '/collections/tui-canvas', sort_order: 4 },
 ];
 
 const OPTION_TEMPLATES = {
