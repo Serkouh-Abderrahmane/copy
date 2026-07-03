@@ -26,8 +26,8 @@ router.get('/search', async (req, res) => {
 
 function fixBannerPath(img) {
   return img
-    .replace(/\/Banner_Ngang_(\d+)_([a-f0-9-]+)\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$3')
-    .replace(/\/Banner_Ngang_(\d+)[a-f0-9]+\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$2');
+    .replace(/\/Banner_Ngang_(\d)_([a-f0-9-]+)\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$3')
+    .replace(/\/Banner_Ngang_(\d)[a-f0-9]+\.(png|jpg|webp)/g, '/Banner_Ngang_$1.$2');
 }
 
 router.get('/homepage', async (req, res) => {
